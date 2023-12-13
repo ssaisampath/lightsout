@@ -1,0 +1,37 @@
+/* Styling for the body */
+body {
+  background-color: red; /* Change background color to blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Styling for a container */
+.container {
+  text-align: center;
+}
+
+/* Styling for table cells */
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+/* Styling for active table cells */
+td.active {
+  background-color: lightblue; /* Change active cell color to light blue */
+}
+
+/* Styling for inactive table cells */
+td:not(.active) {
+  background-color: navy; /* Change inactive cell color to navy */
+}
+
+/* Hiding the win gif by default */
+.hidden {
+  display: none;
+}
